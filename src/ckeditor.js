@@ -14,7 +14,6 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
-import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
@@ -34,7 +33,6 @@ ClassicEditor.builtinPlugins = [
 	BlockQuote,
 	CKFinder,
 	Heading,
-	Indent,
 	Link,
 	List,
 	Paragraph,
@@ -54,10 +52,6 @@ ClassicEditor.defaultConfig = {
 			'link',
 			'bulletedList',
 			'numberedList',
-			'|',
-			'indent',
-			'outdent',
-			'|',
 			'blockQuote',
 			'insertTable',
 			'undo',
